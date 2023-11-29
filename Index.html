@@ -1,8 +1,8 @@
 <!--
  * @Author: yao 864554492@qq.com
  * @Date: 2023-11-26 22:15:11
- * @LastEditors: yao 864554492@qq.com
- * @LastEditTime: 2023-11-26 23:18:41
+ * @LastEditors: yaojinxi 864554492@qq.com
+ * @LastEditTime: 2023-11-29 22:19:39
  * @FilePath: /Team_D_CA/Index.html
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
@@ -11,70 +11,53 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Bootstrap demo</title>
+        <title>Home</title>
         <link href="./style/public.css" rel="stylesheet" />
+        <link href="./style/style.css" rel="stylesheet" />
         <link
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
             rel="stylesheet"
             integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
             crossorigin="anonymous"
         />
+        <script src="./jq.min.js"></script>
+        <script src="./js/home.js"></script>
         <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bsootstrap.bundle.min.js"
             integrity="sha384-/mhDoLbDldZc3qpsJHpLogda//BVZbgYuw6kof4u2FrCedxOtgRZDTHgHUhOCVim"
             crossorigin="anonymous"
         ></script>
     </head>
-    <body class="d-flex h-100 text-center text-bg-dark">
-        <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column bgimg">
-            <header class="mb-auto">
-                <div>
-                    <h3 class="float-md-start mb-0">Cover</h3>
-                    <nav
-                        class="nav nav-masthead justify-content-center float-md-end"
-                    >
-                        <a
-                            class="nav-link fw-bold py-1 px-0 active"
-                            aria-current="page"
-                            href="#"
+    <body>
+        <div class="public-header">
+            <header
+                class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"
+            >
+                <a
+                    href="/"
+                    class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+                >
+                    <span class="fs-4">Discover</span>
+                </a>
+
+                <ul class="nav nav-pills">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active" aria-current="page"
                             >Home</a
                         >
-                        <a class="nav-link fw-bold py-1 px-0" href="#"
-                            >Features</a
-                        >
-                        <a class="nav-link fw-bold py-1 px-0" href="#"
-                            >Contact</a
-                        >
-                    </nav>
-                </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./pages/view1.html" class="nav-link">Plan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">More</a>
+                    </li>
+                </ul>
             </header>
-
-            <main class="px-3">
-                <h1>Cover your page.</h1>
-                <p class="lead">
-                    Cover is a one-page template for building simple and
-                    beautiful home pages. Download, edit the text, and add your
-                    own fullscreen background photo to make it your own.
-                </p>
-                <p class="lead">
-                    <a
-                        href="#"
-                        class="btn btn-lg btn-light fw-bold border-white bg-white"
-                        >Learn more</a
-                    >
-                </p>
-            </main>
-
-            <!-- <footer class="mt-auto text-white-50">
-                <p>
-                    Cover template for
-                    <a href="https://getbootstrap.com/" class="text-white"
-                        >Bootstrap</a
-                    >, by
-                    <a href="https://twitter.com/mdo" class="text-white">@mdo</a
-                    >.
-                </p>
-            </footer> -->
+        </div>
+        <div class="home-main bgimg"></div>
+        <div class="home-content">
+            <div>123</div>
         </div>
     </body>
 </html>

@@ -1,0 +1,84 @@
+.home-main{
+    /* margin-top: 15rem; */
+    height: 100vh;
+}
+
+.view-main{
+    position: relative;
+    
+   
+}
+
+.view-content{
+    width: 80%;
+    /* height: 2040px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* margin-top: 60%; */
+}
+
+.view-container{
+    width: 100%;
+    background-color: #fff;
+}
+
+.view-content-base{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.view-content-title{
+    color: #000;
+    font-family: "Helvetica 85 Heavy",sans-serif;
+    font-weight: 700;
+    padding: 2.5rem 5.625rem 2.5rem 5.625rem
+}
+
+.view-content-setitle{
+    color: #000;
+    font-family: "Helvetica 85 Heavy",sans-serif;
+    font-weight: 700;
+    padding: 0rem 2rem
+}
+
+.view-content-titleline{
+    width: 5.625rem;
+    height: 3px;
+    margin-top: 1.25rem;
+    background-color: #FFC600;
+    margin-left: 2rem;
+}
+
+.view-content-text{
+    line-height: 2.05rem;
+    font-family: "Helvetica 45 Light",sans-serif;
+    padding: 1rem 2rem
+}
+
+.view-content-img{
+    padding: 1rem 2rem;
+    width: 300px; /* 你想要的容器宽度 */
+    height: 200px; /* 你想要的容器高度 */
+    overflow: hidden; /* 确保超出容器的部分被裁剪 */
+}
+
+.view-content-wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.view-content-img-info{
+    object-fit: cover; /* 控制图片如何适应容器，保持纵横比且不变形 */
+    width: 100%;
+    height: 100%;
+}
