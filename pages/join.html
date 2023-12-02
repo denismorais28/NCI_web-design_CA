@@ -2,7 +2,7 @@
  * @Author: yao 864554492@qq.com
  * @Date: 2023-11-26 22:15:11
  * @LastEditors: yaojinxi 864554492@qq.com
- * @LastEditTime: 2023-12-01 17:04:11
+ * @LastEditTime: 2023-12-02 16:09:50
  * @FilePath: /Team_D_CA/Index.html
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
@@ -29,28 +29,35 @@
         ></script> -->
     </head>
     <body>
-        <div class="public-header">
-            <header
-                class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"
-            >
+        <div class="public-header header-black">
+            <header class="d-flex flex-wrap justify-content-center py-3 ">
                 <a
                     href="../Index.html"
-                    class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+                    class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-white text-decoration-none"
                 >
                     <span class="fs-4">Discover</span>
                 </a>
 
                 <ul class="nav nav-pills">
                     <li class="nav-item">
-                        <a href="#" class="nav-link active" aria-current="page"
+                        <a
+                            href="../Index.html"
+                            class="nav-link text-white"
+                            aria-current="page"
                             >Home</a
                         >
                     </li>
                     <li class="nav-item">
-                        <a href="./pages/view1.html" class="nav-link">Plan</a>
+                        <a
+                            href="../pages/view-list.html"
+                            class="nav-link text-white"
+                            >Plan</a
+                        >
                     </li>
                     <li class="nav-item">
-                        <a href="./pages/join.html" class="nav-link">Join</a>
+                        <a href="../pages/join.html" class="nav-link text-white"
+                            >Join</a
+                        >
                     </li>
                 </ul>
             </header>
@@ -59,7 +66,7 @@
         <div class="container join-main">
             <main>
                 <div class="py-5 text-center">
-                    <!-- <img class="d-block mx-auto mb-4" src="../assets/brand/bootstrap-logo.svg" alt="" width="72" height="57"> -->
+                    <img class="d-block mx-auto " src="../images/brazil.svg" alt="" width="72" height="57">
                     <h2>Travel Plan</h2>
                     <p class="lead">
                         Submit the following information about yourself and we
@@ -67,7 +74,7 @@
                     </p>
                 </div>
 
-                <div class="row g-5 join-container">
+                <div class="row join-container">
                     <div class="col-md-7 col-lg-8">
                         <h4 class="mb-3">Your message</h4>
                         <form class="needs-validation" novalidate>
@@ -349,7 +356,7 @@
                         </form>
                     </div>
                 </div>
-                <div class="overlay-container">
+                <!-- <div class="overlay-container">
                     <div class="overlay"></div>
                     <div class="game-modal">
                         <p>Activity Tips</p>
@@ -367,7 +374,7 @@
                             No, next
                         </button>
                     </div>
-                </div>
+                </div> -->
             </main>
         </div>
         <script src="../static/bootstrap.bundle.min.js"></script>

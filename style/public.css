@@ -1,9 +1,13 @@
 .public-header{
   position: fixed;
   width: 100vw;
-  padding: 0 2rem;
+  padding: 0 1rem;
   z-index: 200;
   top: 0;
+}
+
+.header-black{
+  background-color: #333;
 }
 
 .nav-pills .nav-item a {
