@@ -1,8 +1,8 @@
 <!--
  * @Author: yao 864554492@qq.com
  * @Date: 2023-11-26 22:15:11
- * @LastEditors: yao 864554492@qq.com
- * @LastEditTime: 2023-11-30 11:10:52
+ * @LastEditors: yaojinxi 864554492@qq.com
+ * @LastEditTime: 2023-12-01 17:04:11
  * @FilePath: /Team_D_CA/Index.html
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
@@ -21,7 +21,6 @@
             crossorigin="anonymous"
         />
         <script src="../jq.min.js"></script>
-        
 
         <!-- <script
             src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
@@ -35,7 +34,7 @@
                 class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"
             >
                 <a
-                    href="/"
+                    href="../Index.html"
                     class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
                 >
                     <span class="fs-4">Discover</span>
@@ -57,16 +56,14 @@
             </header>
         </div>
 
-        <div class="container">
+        <div class="container join-main">
             <main>
                 <div class="py-5 text-center">
                     <!-- <img class="d-block mx-auto mb-4" src="../assets/brand/bootstrap-logo.svg" alt="" width="72" height="57"> -->
-                    <h2>Checkout form</h2>
+                    <h2>Travel Plan</h2>
                     <p class="lead">
-                        Below is an example form built entirely with Bootstrap’s
-                        form controls. Each required form group has a validation
-                        state that can be triggered by attempting to submit the
-                        form without completing it.
+                        Submit the following information about yourself and we
+                        will contact you at the earliest opportunity.
                     </p>
                 </div>
 
@@ -347,18 +344,30 @@
                                 class="w-100 btn btn-primary btn-lg"
                                 type="submit"
                             >
-                            Submit your order
+                                Submit your order
                             </button>
                         </form>
                     </div>
                 </div>
-                <div class="overlay"></div>
-
-                    <div class="modal">
-                    <p>这是一个弹窗</p>
-                    <button class="modal-button" onclick="closeModal(true)">是</button>
-                    <button class="modal-button" onclick="closeModal(false)">否</button>
+                <div class="overlay-container">
+                    <div class="overlay"></div>
+                    <div class="game-modal">
+                        <p>Activity Tips</p>
+                        <text
+                            >Would you like to take part in our trivia game to
+                            win points?</text
+                        >
+                        <button class="modal-button" onclick="closeModal(true)">
+                            Yes,i sure
+                        </button>
+                        <button
+                            class="modal-button"
+                            onclick="closeModal(false)"
+                        >
+                            No, next
+                        </button>
                     </div>
+                </div>
             </main>
         </div>
         <script src="../static/bootstrap.bundle.min.js"></script>

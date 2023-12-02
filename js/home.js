@@ -1,39 +1,12 @@
+/*
+ * @Author: yaojinxi 864554492@qq.com
+ * @Date: 2023-11-29 18:40:53
+ * @LastEditors: yaojinxi 864554492@qq.com
+ * @LastEditTime: 2023-12-01 23:59:02
+ * @FilePath: \CA-WD\NCI_web-design_CA\js\home.js
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ */
 
-// import img2 from "./../images/gif-home2.gif"
-// import img3 from "./../images/gif-home3.gif"
-
-
-$(document).ready(function() {
-    var $bgImages = $('.bgimg1');
-    var currentIndex = 0;
-    var intervalTime = 10000; // 10秒
-
-    function changeBackground() {
-        // 显示当前背景图片
-        $bgImages.eq(currentIndex).removeClass('bgimg2');
-        // 隐藏其他背景图片
-        $bgImages.not($bgImages.eq(currentIndex)).addClass('bgimg2');
-
-        // 更新索引，确保在数组范围内循环
-        currentIndex = (currentIndex + 1) % $bgImages.length;
-    }
-
-    // 初始加载
-    changeBackground();
-
-    // 设置定时器，每隔intervalTime调用一次changeBackground函数
-    var interval = setInterval(changeBackground, intervalTime);
-
-    // 如果需要在鼠标悬停时停止切换，可以取消下面的注释
-    /*
-    $('.bgimg').hover(
-        function() {
-            clearInterval(interval);
-        },
-        function() {
-            interval = setInterval(changeBackground, intervalTime);
-        }
-    );
-    */
-});
-
+$(document).ready(function(){
+    $('.carousel').carousel();
+  });
