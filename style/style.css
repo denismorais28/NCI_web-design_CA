@@ -25,6 +25,14 @@
 
 .home-content-more{
     color: #fff;
+    cursor: pointer;
+}
+
+.bd-placeholder-img{
+    width: 100vw;
+    height: 500px;
+    /* background-size: cover; */
+    object-fit: cover;
 }
 
 .view-main{
@@ -62,6 +70,16 @@
 .view-container{
     width: 100%;
     background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.view-container-div{
+    display: flex;
+    max-width: 60rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .view-content-base{
@@ -101,8 +119,8 @@
 
 .view-content-img{
     padding: 1rem 2rem;
-    width: 300px; /* 你想要的容器宽度 */
-    height: 200px; /* 你想要的容器高度 */
+    width: 100%; /* 你想要的容器宽度 */
+    height: auto; /* 你想要的容器高度 */
     overflow: hidden; /* 确保超出容器的部分被裁剪 */
 }
 
@@ -126,7 +144,7 @@
 }
 
 .view-card-img{
-    width: 500px;
+    width: 100%;
     height: 500px;
 }
 
